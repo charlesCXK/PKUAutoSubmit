@@ -33,3 +33,4 @@ jobs:
       - run: |
           pip install selenium
           python main.py -u ${{ secrets.USERNAME }} -p ${{ secrets.PASSWORD }} --track '万柳南门-北大东门' --reason '实验室科研'
+          python main.py -u ${{ secrets.USERNAME2 }} -p ${{ secrets.PASSWORD2 }} --track '北大东门-北大东门' --reason '中关新园吃饭'
